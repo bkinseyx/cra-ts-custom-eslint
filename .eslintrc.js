@@ -20,7 +20,7 @@ module.exports = {
     },
   },
   rules: {
-    'sonarjs/cognitive-complexity': ['error', 2],
+    'sonarjs/cognitive-complexity': ['error', 5],
     'max-lines-per-function': ['error', 40],
   },
 };
