@@ -20,6 +20,7 @@ module.exports = {
     },
   },
   rules: {
+    'react/prop-types': ['off'],
     'sonarjs/cognitive-complexity': ['error', 5],
     'max-lines-per-function': ['error', 40],
   },
