@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -15,21 +12,23 @@
     "@types/react-dom": "^16.9.5",
     "@typescript-eslint/eslint-plugin": "^2.17.0",
     "@typescript-eslint/parser": "^2.17.0",
-    "cross-env": "^7.0.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-sonarjs": "^0.5.0",
     "prettier": "^1.19.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0",
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "cross-env EXTEND_ESLINT=true react-scripts start",
+    "start": "env-cmd react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint --ext .ts --ext .tsx .",
-    "lint-warn": "eslint --ext .ts --ext .tsx . -c .eslintrc.warn.js",
+    "lint-warn": "eslint --ext .ts --ext .tsx . -c .eslintrc.warn.json",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

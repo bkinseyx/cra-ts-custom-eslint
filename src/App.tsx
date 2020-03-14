@@ -4,6 +4,24 @@ import './App.css';
 
 import Greeter from './Greeter';
 
+const x: () => void = () => {
+  if (Math.random() === 1) {
+  }
+  if (Math.random() === 1) {
+  }
+  if (Math.random() === 1) {
+  }
+  if (Math.random() === 1) {
+  }
+  if (Math.random() === 1) {
+  }
+  if (Math.random() === 1) {
+  }
+  if (Math.random() === 1) {
+  }
+};
+console.log(x);
+
 const App: React.FC = () => (
   <div className="App">
     <header className="App-header">
